@@ -33,6 +33,13 @@
     @extend %font-add;
     display: inline-flex;
     align-items: center;
+    transition: .3s;
+    &:hover {
+        color: $color-red;
+        .ico_play {
+            background-image: url(../../src/img/icons/play-hover.svg);
+        }
+    }
 }
 
 .link-button__text {
