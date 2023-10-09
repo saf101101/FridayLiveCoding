@@ -1,4 +1,3 @@
-//import { render } from "sass";
 import { Article } from "./js/Article";
 import { ArticleModal } from "./js/ArticleModal";
 import { Modal } from "./js/Modal";
